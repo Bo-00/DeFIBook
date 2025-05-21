@@ -16,7 +16,7 @@
 ## Lending
 
 * [Concepts](lending/concepts.md)
-* [Morphro](lending/morphro.md)
+* [Morpho](lending/morpho.md)
 * [Compound](lending/compound.md)
 * [Aave](lending/aave.md)
 
