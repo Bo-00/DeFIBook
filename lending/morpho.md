@@ -42,12 +42,7 @@ A position is considered healthy when:$$MaxBorrow \geq Borrowed$$
 
 
 
-## Liquidation Formulas
-
-Liquidation Incentive Factor\
-
-
-$$LiquidationIncentiveFactor = \min(MAX\_LIQUIDATION\_INCENTIVE\_FACTOR, \frac{1}{1 - LIQUIDATION\_CURSOR \times (1 - LLTV)})$$
+## Liquidation Formulas$$LiquidationIncentiveFactor = \min(MAX\_LIQUIDATION\_INCENTIVE\_FACTOR, \frac{1}{1 - LIQUIDATION\_CURSOR \times (1 - LLTV)})$$
 
 ### Liquidation Calculations
 
@@ -61,7 +56,37 @@ Where RepaidAssets is converted from RepaidShares using:$$RepaidAssets = RepaidS
 
 
 
+## Technical Architect And Details
 
+### Back End
+
+
+
+### Smart Contracts
+
+
+
+
+
+
+
+## Interesting Questions
+
+为什么morpho选择collateral设计为不能被取出且没有凭证token？
+
+
+
+## Best Practice
+
+Build a Morpho Vault
+
+
+
+Build a Morpho Fix Rate IRM
+
+
+
+Run the Morpho liquidation Bot
 
 
 

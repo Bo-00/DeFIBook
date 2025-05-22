@@ -10,8 +10,8 @@
 ***
 
 * [UniSwap V4](uniswap-v4.md)
-* [Curve](curve.md)
 * [Balancer](balancer.md)
+* [Curve](curve.md)
 
 ## Lending
 
@@ -30,6 +30,11 @@
 * [CowSwap](aggregator/cowswap.md)
 * [Jupiter](aggregator/jupiter.md)
 
+## MEV
+
+* [Dex Arbitarge](mev/dex-arbitarge.md)
+
 ## Auxiliary Components
 
-* [Page 1](auxiliary-components/page-1.md)
+* [Permit2](auxiliary-components/permit2.md)
+* [MultiCall](auxiliary-components/multicall.md)
